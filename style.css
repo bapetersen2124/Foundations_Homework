@@ -1,0 +1,24 @@
+.logo {
+  width:10%;
+  height:auto;
+}
+
+div {
+  background-color:#ff512f;
+  width:100%;
+}
+
+.header-image {
+  width:75%;
+}
+
+.header-text {
+  font-size:32px;
+  font-weight:bold;
+  color:#fff;
+}
+
+.text {
+  color:#fff;
+  font-size:12px;
+}
