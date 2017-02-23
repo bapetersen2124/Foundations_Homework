@@ -9,28 +9,46 @@ body {
   padding:10px 25px;
 }
 
-nav div {
+nav-div {
   background-color:transparent;
 }
 
-nav a {
-  color:#000000;
-  text-decoration:none;
-}
-
 .nav-bar-item {
-  display:inline-block;;
+  background-color:transparent;
+  display:inline-block;
   width:50px;
   text-align: center;
   color:#ff512f;
   font-size: 14px;
   font-family:sans-serif;
-  padding:15px;
+  padding:15px 15px;
+  text-decoration:none;
 }
 
-div {
+.sub-nav-2-item {
+  display:inline-block;
+  width:50px;
+  text-align: left;
+  color:#ffa2a3;
+  font-size:14px;
+  font-family:sans-serif;
+  margin-left:25px;
+  text-decoration:none;
+}
+
+.nav-image {
+  width:25px;
+  height:auto;
+}
+
+.div-header {
+  padding:2% 25%;
   background-color:#ff512f;
   width:100%;
+}
+
+span {
+  display:inline-block;
 }
 
 .header-image {
@@ -39,15 +57,50 @@ div {
 
 .header-text {
   font-size:32px;
-  font-weight:bold;
   color:#fff;
-  font-family:sans-serif;
+  font-family:helvetica, arial, sans-serif;
+}
+
+.hr {
+  border:none;
+  border-top:1px dashed;
+  color: #b23b29;
+  font-weight:lighter;
+  width:55%;
+}
+
+.price-callout {
+  color:#fff;
+  font-size:18px;
+  font-family:helvetica, arial, sans-serif;
+  font-weight:bold;
+}
+
+.buy-now-button {
+  box-sizing: 25px 25px;
+  background-color:#ffffff;
+  display: inline-block;
+  color:#ff512f;
+  font-family: helvetica, arial, sans-serif;
+  font-size:15px;
+  padding:6px 6px;
+  text-decoration:none;
+  text-transform: uppercase;
 }
 
 .white-text {
   color:#fff;
   font-size:10px;
+  font-family:helvetica, arial, sans-serif;
+  text-decoration:none;
+}
+
+.season-year {
+  color:#b23b29;
+  font-size:10px;
   font-family:sans-serif;
+  text-transform:uppercase;
+  font-weight:normal;
 }
 
 .h2-text {
