@@ -1,6 +1,7 @@
 body {
   margin:0;
   padding;0;
+  max-width:1024px;
 }
 
 .logo {
@@ -17,11 +18,12 @@ nav-div {
   background-color:transparent;
   display:inline-block;
   width:50px;
-  text-align: center;
+  text-align: left;
   color:#ff512f;
   font-size: 14px;
   font-family:sans-serif;
   padding:15px 15px;
+  margin-left:15px;
   text-decoration:none;
 }
 
@@ -42,7 +44,7 @@ nav-div {
 }
 
 .div-header {
-  padding:2% 25%;
+  padding:2% 50%;
   background-color:#ff512f;
   width:100%;
 }
@@ -52,7 +54,7 @@ span {
 }
 
 .header-image {
-  width:55%;
+  width:100%;
 }
 
 .header-text {
@@ -67,30 +69,58 @@ span {
   color: #b23b29;
   font-weight:lighter;
   width:55%;
+  margin:7px 0px
 }
 
 .price-callout {
   color:#fff;
-  font-size:18px;
+  font-size:28px;
   font-family:helvetica, arial, sans-serif;
-  font-weight:bold;
+  font-weight:normal;
+  padding:0% 25%;
 }
 
 .buy-now-button {
-  box-sizing: 25px 25px;
+  box-sizing: 36px 36px;
   background-color:#ffffff;
   display: inline-block;
   color:#ff512f;
   font-family: helvetica, arial, sans-serif;
-  font-size:15px;
+  font-size:24px;
   padding:6px 6px;
+  margin:15px;
   text-decoration:none;
   text-transform: uppercase;
 }
 
+.mid-page-nav-bar {
+  background-color:transparent;
+  display:inline-block;
+  width:150px;
+  text-align: left;
+  color:#ff512f;
+  font-size: 14px;
+  font-family:sans-serif;
+  padding:5px;
+  margin:2px;
+  text-decoration:none;
+}
+
+.section-header {
+  padding:2% 50%;
+  background-color:#ffffff;
+  width:100%;
+}
+
+.border-top {
+  border-top: 1px solid;
+  color:#ffa2a3;
+  width:155%;
+}
+
 .white-text {
-  color:#fff;
-  font-size:10px;
+  color:#ffffff;
+  font-size:12px;
   font-family:helvetica, arial, sans-serif;
   text-decoration:none;
 }
@@ -101,18 +131,40 @@ span {
   font-family:sans-serif;
   text-transform:uppercase;
   font-weight:normal;
+  padding:0% 25%;
+  margin:0px;
 }
 
 .h2-text {
   color:#56392d;
-  font-size:18px;
+  font-size:28px;
   font-family:sans-serif;
+  font-weight:normal;
+}
+
+.h3-text {
+    color:#56392d;
+    font-size:28px;
+    font-family:sans-serif;
+    font-weight:normal;
+    padding:0% 25%;
+    margin:0px;
+    line-height:42px;
+}
+
+.partition-header {
+  padding:5px 50%;
+  background-color:#ffeeeb;
+  width:100%;
+  text-align:center;
 }
 
 .black-text {
   color:#908fa4;
   font-size:10px;
   font-family:sans-serif;
+  line-height:34px;
+  margin:20px;
 }
 
 .link-text {
@@ -124,6 +176,7 @@ span {
 
 .body-image {
   width:50%;
+  padding:2% 25%;
 }
 
 .sneaker-descriptor {
@@ -133,4 +186,9 @@ span {
   text-decoration:underline;
   text-decoration-color: #762478;
   font-weight:bold;
+}
+
+.footer {
+  margin:0px;
+}
 }
