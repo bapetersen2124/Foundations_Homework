@@ -60,7 +60,7 @@ span {
 
 span h3{
   display:inline-block;
-  text-align:center;
+  text-align:left;
   width:auto;
   color:#ffffff;
 }
@@ -74,276 +74,6 @@ div h2 {
   margin:0;
   display:inline-block;
   width:100%
-}
-
-div p h3 {
-  margin:200px 0px 10px 0px;
-}
-
-.logo {
-  width:5%;
-  height:auto;
-  padding:25px 0px 25px 25px;
-  margin-top:10px;
-}
-
-.container {
-  width:100%;
-  height:auto;
-}
-
-.three-column-container {
-  width:150px;
-  float:left;
-  height:auto;
-  padding:5px;
-}
-
-.underline {
-  border-bottom: 3px solid #ffa2a3;
-  margin:0;
-  padding-top:0px;
-}
-
-.right-nav {
-  width:auto;
-  padding:inherit;
-  float:right;
-}
-
-.right-nav-img {
-  width:auto;
-}
-
-.right-nav-align {
-  text-align:center;
-  display:inline-block;
-  color:#ffa2a3;
-  font-size:10px;
-  font-family:sans-serif;
-  text-decoration:none;
-  width:auto;
-  float:right;
-  padding:15px;
-  0px;
-  margin-left: 0px 0px 2px 550px;
-}
-
-.right-float {
-  float:right;
-}
-
-.left-content-block {
-  width:30%;
-  max-width:50%;
-  height:auto;
-  align-self: auto;
-}
-
-.right-content-block {
-  width:55%;
-  float:right;
-  height:auto;
-  padding:0% 2%;
-  margin:0;
-}
-
-.column-left {
-  width: 30%;
-  padding:0px 0px;
-  text-align:center;
-}
-
-.column-center {
-  width: 30%;
-  padding:0px 0px;
-  text-align:center;
-  margin:auto;
-}
-
-.column-right {
-  width: 30%;
-  padding:0px 0px;
-  text-align:center;
-}
-
-.left-float {
-  float:left;
-  padding-right:5%
-}
-
-.sub-nav-2-item {
-  display:inline-block;
-  width:50px;
-  text-align: left;
-  color:#ffa2a3;
-  font-size:14px;
-  font-family:sans-serif;
-  margin-left:25px;
-  text-decoration:none;
-}
-
-.div-header {
-  padding:3% 0% 5% 5%;
-  background-image:linear-gradient(to right, #dd2475,
-#f95301);
-  width:100%;
-  height:auto;
-}
-
-.header-image {
-  width:35%;
-  padding:0%;
-}
-
-.header-text {
-  font-size:32px;
-  color:#ffffff;
-  font-family:helvetica, arial, sans-serif;
-  padding:0;
-  margin:0;
-}
-
-.hr {
-  border:none;
-  border-top:1px dashed;
-  color: #b23b29;
-  font-weight:lighter;
-  width:600px;
-  margin:7px 0px
-}
-
-.price-callout {
-  color:#fff;
-  font-size:28px;
-  font-family:helvetica, arial, sans-serif;
-  font-weight:normal;
-  padding:0% 0%;
-}
-
-.buy-now-button {
-  box-sizing: 36px 36px;
-  background-color:#ffffff;
-  display: inline-block;
-  color:#ff512f;
-  font-family: helvetica, arial, sans-serif;
-  font-size:24px;
-  padding:6px 6px;
-  margin:15px;
-  text-decoration:none;
-  text-transform: uppercase;
-  border-radius:25px;
-}
-
-.buy-now-button:hover {
-  background-color:transparent;
-  color:#ffffff;
-}
-
-.mid-page-nav-bar {
-  background-color:transparent;
-  display:inline-block;
-  width:auto;
-  text-align: left;
-  color:#ff512f;
-  font-size: 14px;
-  font-family:sans-serif;
-  padding:5px;
-  margin:2px;
-  text-decoration:none;
-  font-weight:bold;
-}
-
-.section-header {
-  padding:3% 7% 10% 15%;
-  text-align:left-float;
-  background-color:#ffffff;
-  width:100%;
-}
-
-.border-top {
-  border-top: 1px solid;
-  color:#ffa2a3;
-  width:105%;
-}
-
-.white-text {
-  color:#ffffff;
-  font-size:12px;
-  font-family:helvetica, arial, sans-serif;
-  text-decoration:none;
-  word-wrap: normal;
-  line-height:24px;
-}
-
-.season-year {
-  color:#b23b29;
-  font-size:10px;
-  font-family:sans-serif;
-  text-transform:uppercase;
-  font-weight:normal;
-  padding:0% 0%;
-  margin:0px;
-}
-
-.h2-text {
-  color:#56392d;
-  font-size:22px;
-  font-family:sans-serif;
-  font-weight:normal;
-  padding:0;
-  margin:0;
-}
-
-.h3-text {
-    color:#56392d;
-    font-size:16px;
-    font-family:sans-serif;
-    font-weight:normal;
-    padding:2% 4%;
-    margin:1% 0px 0px 0px;
-    line-height:42px;
-    width:150px;
-}
-
-.partition-header {
-  padding:5px 25%;
-  background-color:#ffeeeb;
-  text-align:center;
-}
-
-.black-text {
-  color:#908fa4;
-  font-size:10px;
-  font-family:sans-serif;
-  padding:10px 0px;
-  margin:5px;
-}
-
-.link-text {
-  color:#762478;
-  font-size:10px;
-  font-family:sans-serif;
-  text-decoration:underline;
-}
-
-.body-image {
-  width:50%;
-  padding:5% 5%;
-  align-content: center;
-}
-
-.sneaker-descriptor {
-  color:#ffffff;
-  font-size:12px;
-  font-family:sans-serif;
-  text-decoration:underline;
-  text-decoration-color: #762478;
-  font-weight:bold;
-}
-
-.footer {
-  margin:0px;
 }
 
 
@@ -394,6 +124,227 @@ footer img {
   display: inline-block;
 }
 
+.logo {
+  width:5%;
+  height:auto;
+  padding:25px 0px 25px 25px;
+  margin-top:10px;
+}
+
+.container {
+  width:100%;
+  height:auto;
+}
+
+.three-column-container {
+  width:150px;
+  float:left;
+  height:auto;
+  padding:5px;
+}
+
+.thick-underline {
+  border-bottom: 3px solid #ffa2a3;
+  margin:0px;
+  padding-top:0px;
+}
+
+.hr-body {
+  border:none;
+  border-bottom: 1px solid;
+  color: #ffa2a3;
+  font-weight:lighter;
+  width:65%;
+}
+
+.right-nav-align {
+  text-align:center;
+  display:inline-block;
+  color:#ffa2a3;
+  font-size:10px;
+  font-family:sans-serif;
+  text-decoration:none;
+  width:auto;
+  float:right;
+  padding:15px;
+  0px;
+  margin-left: 0px 0px 2px 550px;
+}
+
+.left-content-block {
+  display:inline-block;
+  width:30%;
+  max-width:40%;
+  height:auto;
+  padding:0%;
+  margin: 0% 2% 3% 5%;
+}
+
+.right-content-block {
+  display:inline-block;
+  width:40%;
+  max-width:40%
+  height:auto;
+  padding:0%;
+  margin:0% 2% 3% 0%;
+}
+
+.column-left {
+  width: 30%;
+  padding:0px 0px;
+  text-align:center;
+}
+
+.column-center {
+  width: 30%;
+  padding:0px 0px;
+  text-align:center;
+  margin:auto;
+}
+
+.column-right {
+  width: 30%;
+  padding:0px 0px;
+  text-align:center;
+}
+
+.div-header {
+  padding:3% 2% 3% 5%;
+  background-image:linear-gradient(to right, #dd2475,
+#f95301);
+  width:100%;
+  height:auto;
+}
+
+.header-image {
+  width:75%;
+  padding:0% 0% 0% 5%;
+}
+
+.header-text {
+  font-size:32px;
+  color:#ffffff;
+  font-family:helvetica, arial, sans-serif;
+  padding:3% 0%;
+  margin:0;
+}
+
+.hr {
+  border:none;
+  border-top:1px dashed;
+  color: #b23b29;
+  font-weight:lighter;
+  width:600px;
+  margin:7px 0px
+}
+
+.price-callout {
+  color:#fff;
+  font-size:28px;
+  font-family:helvetica, arial, sans-serif;
+  font-weight:normal;
+  padding:0% 0%;
+}
+
+.buy-now-button {
+  box-sizing: 36px 36px;
+  background-color:#ffffff;
+  display: inline-block;
+  color:#ff512f;
+  font-family: helvetica, arial, sans-serif;
+  font-size:24px;
+  padding:6px 6px;
+  margin:15px;
+  text-decoration:none;
+  text-transform: uppercase;
+  border-radius:25px;
+}
+
+.buy-now-button:hover {
+  background-color:transparent;
+  color:#ffffff;
+}
+
+.mid-page-nav-bar {
+  background-color:transparent;
+  display:inline-block;
+  width:auto;
+  text-align: left;
+  color:#ff512f;
+  font-size: 14px;
+  font-family:sans-serif;
+  padding:5px;
+  margin:0px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.section-header {
+  padding:3% 7% 5% 15%;
+  text-align:left-float;
+  background-color:#ffffff;
+  width:100%;
+}
+
+.white-text {
+  color:#ffffff;
+  font-size:12px;
+  font-family:helvetica, arial, sans-serif;
+  text-decoration:none;
+  word-wrap: normal;
+  line-height:24px;
+}
+
+.season-year {
+  color:#b23b29;
+  font-size:10px;
+  font-family:sans-serif;
+  text-transform:uppercase;
+  font-weight:normal;
+  padding:0% 0%;
+  margin:0px;
+}
+
+.h2-text {
+  color:#56392d;
+  font-size:22px;
+  font-family:sans-serif;
+  font-weight:normal;
+  padding:0;
+  margin:0;
+}
+
+.h3-text {
+    color:#56392d;
+    font-size:16px;
+    font-family:sans-serif;
+    font-weight:normal;
+    padding:2% 0%;
+    margin:1% 0px 0px 0px;
+    line-height:42px;
+    width:150px;
+}
+
+.partition-header {
+  padding:10px 25%;
+  background-color:#ffeeeb;
+  text-align:center;
+}
+
+.black-text {
+  color:#908fa4;
+  font-size:10px;
+  font-family:sans-serif;
+  padding:10px 0px;
+  margin:5px;
+}
+
+.body-image {
+  width:50%;
+  padding:5% 5%;
+  align-content: center;
+}
+
 .right-footer-align {
   text-align:center;
   display:inline-block;
@@ -404,5 +355,4 @@ footer img {
   width:auto;
   float:right;
   padding:35px 15px 15px 15px;
-  margin-left: 0px 0px 2px 800px;
 }
