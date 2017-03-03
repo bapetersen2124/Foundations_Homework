@@ -16,23 +16,29 @@
 // $("body").append("<div> This is a new div that wasn't here before! </div>")
 // // append will add to the page any content that you pass to it in parentheses; defaults to bottom of page
 
-$("#buy-now-button").hover(function() {
-  $("#buy-now-button").text("ADD TO CART!");
+$(".hover").hover(function() {
+  $(".hover").text("ADD TO CART!");
 }, function(){
-  $("#buy-now-button").text("BUY NOW!");
+  $(".hover").text("BUY NOW!");
 });
 
-$("#buy-now-button").click(function() {
-  $("#buy-now-button").text("ADDED TO CART!");
-});
+var cart_total_items = 0;
+$(".hover").click(function() {
+  $(".hover").removeClass("hover").text("ADDED TO CART!");
+  cart_total_items += 1;
+  $(".cart-total-items").text(
+    "Shopping Cart (" + cart_total_items + ")"
+)}
+);
 
-$(".shopping-cart").hover(function() {
-  $(".shopping-cart").addClass("thick-underline");
-}, function (){
-  $(".shopping-cart").removeClass("thick-underline");
-});
 
 $(".mid-page-nav-bar").hover(function() {
+  $(this).addClass("thick-underline");
+}, function () {
+  $(this).removeClass("thick-underline");
+});
+
+$(".mouse-over").hover(function() {
   $(this).addClass("thick-underline");
 }, function () {
   $(this).removeClass("thick-underline");
