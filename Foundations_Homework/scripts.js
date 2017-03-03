@@ -26,10 +26,10 @@ $("#buy-now-button").click(function() {
   $("#buy-now-button").text("ADDED TO CART!");
 });
 
-$("#shopping-cart").hover(function() {
-  $("#shopping-cart").addClass("thick-underline");
+$(".shopping-cart").hover(function() {
+  $(".shopping-cart").addClass("thick-underline");
 }, function (){
-  $("#shopping-cart").removeClass("thick-underline");
+  $(".shopping-cart").removeClass("thick-underline");
 });
 
 $(".mid-page-nav-bar").hover(function() {
